@@ -21,7 +21,7 @@ const Home =({hello, saveToken})=>{
   <h1>{hello}</h1>
     <FacebookLogin
     appId="172832021243732"
-    autoLoad={false}
+    autoLoad={true}
     fields="name,email,picture"
     scope="pages_show_list,pages_read_engagement,pages_manage_posts, pages_manage_metadata"
     callback={responseFacebook} />

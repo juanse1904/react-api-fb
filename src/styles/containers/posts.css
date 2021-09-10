@@ -1,0 +1,47 @@
+.posts-container{
+display:grid;
+grid-template-columns: repeat(4, 1fr);
+width:100vw;
+background-color: #F5F6FA;
+font-family: 'Roboto', sans-serif;
+}
+.facebook-posts{
+ display:flex;
+ flex-direction:column;
+ align-items: center;
+ background: #FFFFFF;
+border: 1px solid #E8EBF2;
+box-sizing: border-box;
+box-shadow: -10px 9px 21px rgba(128, 152, 213, 0.074983);
+border-radius: 8px;
+margin:20px;
+}
+.brand-data{
+display:grid;
+grid-template-columns: 1fr 5fr 1fr;
+margin:20px 0;
+padding-bottom: 20px;
+width:95%;
+align-self: center;
+border-bottom: 1px solid #CED3E6;
+}
+.brand-data>img{
+    width:90%;
+    border-radius: 100%;
+    }
+    .brand-data>h3{
+margin-left:30px;
+        }
+.submenu-brand{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items:center;
+    padding-right:30px;
+}
+a{
+text-decoration: none;
+}
+a:visited{
+ color:black;   
+}

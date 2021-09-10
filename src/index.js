@@ -8,10 +8,9 @@ import reportWebVitals from './reportWebVitals';
 
 const initialState={
   "token":"",
-  "userid":"",
-  "hello": "hello world!!",
   "pages":[],
-  "posts":[]
+  "facebook_posts":[],
+  "ig_posts":[]
 };
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__;

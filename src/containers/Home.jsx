@@ -8,7 +8,7 @@ import PostBox from '../components/postBox';
 
 
 
-const Home =({hello, saveToken})=>{
+const Home =({hello})=>{
 const URL=`https://www.facebook.com/v10.0/dialog/oauth?
 response_type=code
 &auth_type=rerequest
@@ -26,9 +26,6 @@ response_type=code
  <a href={URL}>
    <p>login with facebook!!</p>
  </a>
-    <Link to={'/dashboard'}>
-      <h3>see pages</h3>
-    </Link>
   </>
   );
   }

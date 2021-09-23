@@ -29,3 +29,4 @@ const postBox = ({message,id,media_url,media_type,caption})=>(
 )
 
 export default postBox;
+
